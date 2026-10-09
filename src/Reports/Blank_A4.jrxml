@@ -1,0 +1,27 @@
+<!-- Created with Jaspersoft Studio version 7.0.3.final using JasperReports Library version 7.0.3-41034ca841d452f3305ba55b9042260aaa1ab5dd  -->
+<jasperReport name="Blank_A4" language="java" pageWidth="595" pageHeight="842" columnWidth="555" leftMargin="20" rightMargin="20" topMargin="20" bottomMargin="20" uuid="c9d53cf3-85b8-4051-b7d1-768b126bf785">
+	<property name="com.jaspersoft.studio.data.defaultdataadapter" value="One Empty Record"/>
+	<parameter name="Parameter1" class="java.lang.String"/>
+	<query language="sql"><![CDATA[]]></query>
+	<background splitType="Stretch"/>
+	<title height="79" splitType="Stretch">
+		<element kind="staticText" uuid="a4b97ac4-e8b1-4984-9ed8-886015f3d098" x="198" y="20" width="158" height="40" forecolor="#1239FF" fontSize="22.0" bold="true" hTextAlign="Center" vTextAlign="Middle">
+			<text><![CDATA[GlobeMed]]></text>
+		</element>
+	</title>
+	<pageHeader height="66" splitType="Stretch">
+		<element kind="staticText" uuid="e3c75802-5791-46d2-afb9-711890a61388" x="8" y="13" width="52" height="26" fontSize="13.0" bold="true">
+			<text><![CDATA[Name :]]></text>
+		</element>
+		<element kind="textField" uuid="6547df4b-c05d-4724-bf08-74117790dd7f" x="60" y="11" width="260" height="30" fontSize="14.0">
+			<expression><![CDATA[$P{Parameter1}]]></expression>
+		</element>
+	</pageHeader>
+	<columnHeader height="61" splitType="Stretch"/>
+	<detail>
+		<band height="125" splitType="Stretch"/>
+	</detail>
+	<columnFooter height="45" splitType="Stretch"/>
+	<pageFooter height="54" splitType="Stretch"/>
+	<summary height="42" splitType="Stretch"/>
+</jasperReport>
