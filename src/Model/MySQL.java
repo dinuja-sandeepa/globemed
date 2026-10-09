@@ -9,7 +9,7 @@ import java.sql.Statement;
 public class MySQL {
     private static Connection connection;
     private static final String username = "root";
-    private static final String password = "Dinuja@2001";
+    private static final String password = "replace_your_password";
     private static final String database = "globemed";
 
     // Singleton: Create or reuse connection
